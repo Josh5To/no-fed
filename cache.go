@@ -60,6 +60,17 @@ func cacheEvent(evt nostr.Event) {
 	}
 }
 
+func getCachedContactList(pubkey string) *nostr.Event {
+	var evt *nostr.Event
+	var j string
+	err := pg.Get(&j, "SELECT value FROM cache WHERE key = $1", contactskey(pubkey))
+	if err != nil && err != sql.ErrNoRows {
+		log.Error().Err(err).Str("pubkey", pubkey).Msg("error getting cached contacts")
+	}
+	json.Unmarshal([]byte(j), evt)
+	return evt
+}
+
 func getCachedNote(id string) *nostr.Event {
 	var evt *nostr.Event
 	var j string
@@ -77,17 +88,6 @@ func getCachedMetadata(pubkey string) *nostr.Event {
 	err := pg.Get(&j, "SELECT value FROM cache WHERE key = $1", metadatakey(pubkey))
 	if err != nil && err != sql.ErrNoRows {
 		log.Error().Err(err).Str("pubkey", pubkey).Msg("error getting cached metadata")
-	}
-	json.Unmarshal([]byte(j), evt)
-	return evt
-}
-
-func getCachedContactList(pubkey string) *nostr.Event {
-	var evt *nostr.Event
-	var j string
-	err := pg.Get(&j, "SELECT value FROM cache WHERE key = $1", contactskey(pubkey))
-	if err != nil && err != sql.ErrNoRows {
-		log.Error().Err(err).Str("pubkey", pubkey).Msg("error getting cached contacts")
 	}
 	json.Unmarshal([]byte(j), evt)
 	return evt
