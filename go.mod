@@ -10,11 +10,7 @@ require (
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/lib/pq v1.10.4
-<<<<<<< HEAD
-	github.com/nbd-wtf/go-nostr v0.10.0
-=======
 	github.com/nbd-wtf/go-nostr v0.11.0
->>>>>>> 5fb007a05d7a5cc3124cf77d0b4226a22a611359
 	github.com/rs/zerolog v1.26.1
 	github.com/tidwall/gjson v1.14.3
 	golang.org/x/exp v0.0.0-20221106115401-f9659909a136
@@ -32,10 +28,3 @@ require (
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/valyala/fastjson v1.6.3 // indirect
 )
-<<<<<<< HEAD
-
-replace github.com/fiatjaf/litepub => ../litepub
-
-//replace github.com/nbd-wtf/go-nostr => ../go-nostr
-=======
->>>>>>> 5fb007a05d7a5cc3124cf77d0b4226a22a611359

@@ -10,11 +10,8 @@ github.com/decred/dcrd/crypto/blake256 v1.0.0 h1:/8DMNYp9SGi5f0w7uCm6d6M4OU2rGFK
 github.com/decred/dcrd/crypto/blake256 v1.0.0/go.mod h1:sQl2p6Y26YV+ZOcSTP6thNdn47hh8kt6rqSlvmrXFAc=
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 h1:YLtO71vCjJRCBcrPMtQ9nqBsqpA1m5sE92cU+pd5Mcc=
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1/go.mod h1:hyedUtir6IdtD/7lIxGeCxkaw7y45JueMRL4DIyJDKs=
-<<<<<<< HEAD
-=======
 github.com/fiatjaf/litepub v1.2.0 h1:ubkH6FfHlChPOClc5ZYEoy9c30dxuZkq0sOft9kr0Jc=
 github.com/fiatjaf/litepub v1.2.0/go.mod h1:Uz3XZDHt9qJavDH1LhVKxhwWOftZd/zdwFir8NKrlGs=
->>>>>>> 5fb007a05d7a5cc3124cf77d0b4226a22a611359
 github.com/fiatjaf/relayer v1.5.2 h1:XnVaHL5D2N0nOrAFjbjT/ZniqDaG2L+YHDvlmcNUD68=
 github.com/fiatjaf/relayer v1.5.2/go.mod h1:VMtyMtX8SdRgY+jQ5EmIAfXuG+jHqmZMUUHIclvcZnE=
 github.com/go-sql-driver/mysql v1.5.0 h1:ozyZYNQW3x3HtqT1jira07DN2PArx2v7/mN66gGcHOs=
@@ -35,13 +32,8 @@ github.com/lib/pq v1.10.4 h1:SO9z7FRPzA03QhHKJrH5BXA6HU1rS4V2nIVrrNC1iYk=
 github.com/lib/pq v1.10.4/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
 github.com/mattn/go-sqlite3 v1.14.6 h1:dNPt6NO46WmLVt2DLNpwczCmdV5boIZ6g/tlDrlRUbg=
 github.com/mattn/go-sqlite3 v1.14.6/go.mod h1:NyWgC/yNuGj7Q9rpYnZvas74GogHl5/Z4A/KQRfk6bU=
-<<<<<<< HEAD
-github.com/nbd-wtf/go-nostr v0.10.0 h1:95y0VjyplDCInPn7VD2eNvRHwTGib1LxfVKp0Fv2ZQY=
-github.com/nbd-wtf/go-nostr v0.10.0/go.mod h1:qFFTIxh15H5GGN0WsBI/P73DteqsevnhSEW/yk8nEf4=
-=======
 github.com/nbd-wtf/go-nostr v0.11.0 h1:jpXK4mcqYogaJVOGJJaeHFra/M5jf3KFKpe/SPOBvag=
 github.com/nbd-wtf/go-nostr v0.11.0/go.mod h1:qFFTIxh15H5GGN0WsBI/P73DteqsevnhSEW/yk8nEf4=
->>>>>>> 5fb007a05d7a5cc3124cf77d0b4226a22a611359
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/rs/cors v1.7.0 h1:+88SsELBHx5r+hZ8TCkggzSstaWNbDvThkVK8H6f9ik=
 github.com/rs/cors v1.7.0/go.mod h1:gFx+x8UowdsKA9AchylcLynDq+nNFfI8FkUZdN/jGCU=
